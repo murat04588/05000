@@ -1,0 +1,410 @@
+.navbar-custom {
+    background-color: #F5DEB3; /* Buğday rengi */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.navbar-brand:hover {
+    color: #555;
+}
+.nav-link {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    transition: color 0.6s ease, background-color 0.3s ease;
+}
+.nav-link:hover {
+    color: #6795ff;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+    object-fit:initial;
+}
+
+
+
+
+
+
+
+
+
+.ayrac{
+    border: none;
+    border-top: 3px solid orange;
+    max-width: 250px;
+    margin: 25px auto;
+  }
+  
+  
+  
+  
+  
+  .container {
+    display: inline-block;
+    overflow: hidden; 
+  }
+  
+  .container img {
+    width: 100%; 
+    transition: transform 0.5s ease; 
+    
+  }
+  
+  .container img:hover {
+    transform: scale(1.1); 
+  }
+  
+
+
+
+
+
+  footer a:hover {
+    color: #f1c40f;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.banner {
+    background-image: url(../img/nav1.jpg);
+    background-size: cover; /* Resmi genişliği tamamen dolduracak şekilde ölçeklendirir */
+    background-repeat: no-repeat; /* Resmin tekrarlanmamasını sağlar */
+    background-position: center; /* Resmi ortalar */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 250px 0; /* Üst ve alt boşlukları artırarak banner'ı genişletir */
+    margin-bottom: 30px;
+}
+.banner h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: -25px; /* Yazıyı yukarı taşır */
+}
+
+.banner p {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+.position-relative {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+main.contact {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-details img {
+    width: 85%;
+    border-radius: 10px;
+}
+
+.contact-details div {
+    text-align: center;
+}
+
+.contact-details h2 {
+    margin-bottom: 60px;
+}
+
+.contact-details h1 {
+    margin-bottom: 23px;
+}
+
+.contact-details a {
+    color: #0058a3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.container {
+    margin-top: 40px;
+  }
+  
+  
+  
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #0056b3;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  
+  .contact-form .form-control {
+    border-radius: 5px;
+  }
+  
+  
+  .contact-form .btn {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    width: 100%;
+  }
+  
+  
+  
+  .contact-form .btn:hover {
+    background-color: #004085;
+  }
+  
+  
+  .card-custom {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  
+  
+  .social-btns a {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  
+  
+  
+  .social-btns .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  
+  
+  
+  .map-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 50px;
+  }
+  
+  
+  
+  
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .contact-form .btn {
+        width: auto;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  .harita{
+    border-radius: 50px;
+  }
+  
+  
+
+
+  
+  
+
+
+
+  /* Takım Üyeleri */
+.team-section {
+    margin-top: 50px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-member h5 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.team-member p {
+    color: #7F8C8D;
+}
+
+/* Mobil uyumlu stil */
+@media (max-width: 767px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-description, .values-list li {
+        font-size: 1rem;
+    }
+}
+/* About Section */
+.about-section h2 {
+    color: #2C3E50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #7F8C8D;
+}
+
+/* Values List */
+.values-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.values-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #34495E;
+}
+
+.values-list i {
+    color: #27AE60;
+    margin-right: 10px;
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+
+
+
+
